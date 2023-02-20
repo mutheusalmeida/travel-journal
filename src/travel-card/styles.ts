@@ -22,6 +22,7 @@ export const TravelInfo = styled.div`
 
 export const LocationContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   gap: 1.2em;
   font-size: 0.625rem;
   line-height: 1.2em;
