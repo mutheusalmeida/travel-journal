@@ -37,6 +37,10 @@ export const TravelCard = ({
         </S.LocationContainer>
 
         <S.Title>{title}</S.Title>
+
+        <S.Date>{startDate} - {endDate}</S.Date>
+
+        <S.Desc>{description}</S.Desc>
       </S.TravelInfo>
     </S.TravelCardWrapper>
   )

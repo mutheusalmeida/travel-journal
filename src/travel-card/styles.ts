@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const TravelCardWrapper = styled.div`
   display: flex;
   gap: 1.1875em;
+  max-width: 29em;
 `
 
 export const TravelImg = styled.img`
@@ -41,5 +42,18 @@ export const LocationUrl = styled.a`
 
 export const Title = styled.h2`
   font-size: 1.5625rem;
-  line-height: 30px;
+  line-height: 1.2em;
+  margin-bottom: 0.24em;
+`
+
+export const Desc = styled.p`
+  font-size: 0.625rem;
+  line-height: 1.25em;
+`
+
+export const Date = styled.span`
+  font-weight: 700;
+  font-size: 0.625rem;
+  line-height: 1.2em;
+  margin-bottom: 2px;
 `

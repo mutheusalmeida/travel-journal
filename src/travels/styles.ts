@@ -5,4 +5,5 @@ export const TravelsWrapper = styled.main`
   flex-direction: column;
   padding: 2.5em 2.8125em;
   gap: 2.25em;
+  align-items: center;
 `
