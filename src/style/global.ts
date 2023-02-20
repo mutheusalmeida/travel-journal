@@ -25,8 +25,8 @@ const GlobalStyles = createGlobalStyle`
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Poppins', sans-serif;
-    color: #222;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
   }
 
   img, picture, video, canvas, svg {

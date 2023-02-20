@@ -1,7 +1,11 @@
+import { Header } from './header'
+import { Travels } from './travels'
+
 export function App () {
   return (
-    <div className="">
-      hello
+    <div>
+      <Header />
+      <Travels />
     </div>
   )
 }
